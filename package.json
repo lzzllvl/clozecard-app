@@ -1,0 +1,26 @@
+{
+  "name": "clozecard-app",
+  "version": "1.0.0",
+  "description": "App For Generating Flash Cards of Varying Types",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lzzllvl/clozecard-app.git"
+  },
+  "keywords": [
+    "Cloze",
+    "flashcard",
+    "clozecard",
+    "generators",
+    "javascript"
+  ],
+  "author": "Gregory Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lzzllvl/clozecard-app/issues"
+  },
+  "homepage": "https://github.com/lzzllvl/clozecard-app#readme"
+}
