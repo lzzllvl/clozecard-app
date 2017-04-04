@@ -1,0 +1,12 @@
+{
+  "one": {
+    "type" : "cloze",
+    "question" : "Neil Armstrong was the first man to walk on the moon.",
+    "answer": "Neil Armstrong"
+  },
+  "two": {
+    "type" : "flash",
+    "question": "Who was the first person to exit the earth sphere?",
+    "answer": "Yuri Gagarin"
+  }
+}

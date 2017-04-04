@@ -1,10 +1,14 @@
 const ClozeCard = function(text, cloze) {
-  let regCloze = new RegExp(cloze);
-  if(regCloze.test(text)) {
-    this.text = text;
-    this.cloze = cloze;
+  if(this instanceof ClozeCard) {
+    let regCloze = new RegExp(cloze);
+    if(regCloze.test(text)) {
+      this.text = text;
+      this.cloze = cloze;
+    } else {
+      console.log("Error: Cloze argument is not included in the text")
+    }
   } else {
-    console.log("Error: Cloze argument is not included in the text")
+    return new ClozeCard(text, cloze);
   }
 }
 
@@ -20,6 +24,10 @@ ClozeCard.prototype.clozeOnly = function() {
 ClozeCard.prototype.openOnly = function() {
   let regCloze = new RegExp(this.cloze);
   return this.text.replace(regCloze, "- ... -");
+}
+
+ClozeCard.prototype.displayFull = function() {
+  console.log(this.fullText());
 }
 
 module.exports = ClozeCard;
