@@ -1,18 +1,33 @@
 {
-  "numCards": "3",
   "1": {
-    "type" : "cloze",
-    "question" : "Neil Armstrong was the first man to walk on the moon.",
+    "type": "cloze",
+    "question": "Neil Armstrong was the first man to walk on the moon.",
     "answer": "Neil Armstrong"
   },
   "2": {
-    "type" : "flash",
+    "type": "flash",
     "question": "Who was the first person to exit the earth sphere?",
     "answer": "Yuri Gagarin"
   },
   "3": {
-    "type" : "cloze",
+    "type": "cloze",
     "question": "The Falcon 9 rocket, developed by spaceX, was the first rocket to be successfully relaunched",
     "answer": "Falcon 9"
-  }
+  },
+  "4": {
+    "type": "cloze",
+    "question": "Mary Shelley is the author of Frankenstein",
+    "answer": "Mary Shelley"
+  },
+  "5": {
+    "type": "flash",
+    "question": "Who wrote Ten Thousand Leagues Under The Sea",
+    "answer": "Jules Verne"
+  },
+  "6": {
+    "type": "cloze",
+    "question": "Montecello is the estate and plantation run by Thomas Jefferson.",
+    "answer": "Thomas Jefferson"
+  },
+  "numCards": 6
 }
