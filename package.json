@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/lzzllvl/clozecard-app/issues"
   },
-  "homepage": "https://github.com/lzzllvl/clozecard-app#readme"
+  "homepage": "https://github.com/lzzllvl/clozecard-app#readme",
+  "devDependencies": {
+    "inquirer": "^3.0.6"
+  }
 }

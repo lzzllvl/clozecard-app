@@ -1,12 +1,18 @@
 {
-  "one": {
+  "numCards": "3",
+  "1": {
     "type" : "cloze",
     "question" : "Neil Armstrong was the first man to walk on the moon.",
     "answer": "Neil Armstrong"
   },
-  "two": {
+  "2": {
     "type" : "flash",
     "question": "Who was the first person to exit the earth sphere?",
     "answer": "Yuri Gagarin"
+  },
+  "3": {
+    "type" : "cloze",
+    "question": "The Falcon 9 rocket, developed by spaceX, was the first rocket to be successfully relaunched",
+    "answer": "Falcon 9"
   }
 }

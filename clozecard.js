@@ -30,4 +30,13 @@ ClozeCard.prototype.displayFull = function() {
   console.log(this.fullText());
 }
 
+ClozeCard.prototype.check = function(text) {
+  if(this.cloze.toLowerCase() == text.toLowerCase()) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+
 module.exports = ClozeCard;
