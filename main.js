@@ -22,9 +22,9 @@ const getCardArray = () => {
 const doCLQuiz = (cardArr) => {
   let num = cardArr.length;
   let i = 0;
-  var ask = function() {
+  let ask = function() {
     if(num > 0) {
-      var question = cardArr[i];
+      let question = cardArr[i];
       let mess = "";
       if(question instanceof FlashCard){
         mess = cardArr[i].getFront();
