@@ -29,5 +29,10 @@
     "question": "Montecello is the estate and plantation run by Thomas Jefferson.",
     "answer": "Thomas Jefferson"
   },
-  "numCards": 6
+  "7": {
+    "type": "cloze",
+    "question": "Supermans real name is Clark Kent",
+    "answer": "Clark Kent"
+  },
+  "numCards": 7
 }

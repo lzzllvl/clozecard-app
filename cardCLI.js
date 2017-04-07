@@ -1,5 +1,5 @@
-const ClozeCard = require("./ClozeCard.js");
-const FlashCard = require('./FlashCard.js')
+const ClozeCard = require("./clozecard.js");
+const FlashCard = require('./flashcard.js')
 const fs = require('fs');
 const inquirer = require('inquirer');
 
